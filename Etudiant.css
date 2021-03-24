@@ -327,7 +327,7 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: white !important;
 }
 
 .frontside .card .card-title,
@@ -340,8 +340,9 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
-
-
+.card-text div{
+    background-color: teal;
+}
 
 
 
