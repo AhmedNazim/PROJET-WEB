@@ -1,0 +1,233 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+#Ktiba{
+  position: relative;
+  width: 100%;
+  padding: 50px;
+
+}
+.circle{
+  position: relative;
+  overflow: hidden;
+
+}
+.circle img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Ktiba img{
+  float: left
+  // background: #fff
+  width: 100%
+  transform: translateX(-30%)
+  shape-outside: polygon(40% 0%, 50% 50%, 70% 100%)
+  shape-margin: 2rem
+  // visibility: hidden
+  // width: 400px
+  clip-path: polygon(30% 0, 70% 0, 100% 100%, 30% 100%)
+  }
+
+  &:first-child
+    margin-top: 0
+
+#utilisation{
+  position: center;
+  color: #20B2AA;
+  font-size: 3rem;
+
+}
+.dot {
+  height: 300px;
+  width: 300px;
+  margin-left: 40px;
+  background-color: #A0522D;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+
+}
+@media only screen and (max-width: 600px) {
+  .dot{
+    margin-left: 25px;
+  }
+  
+}
+
+.no-shapes h1:after {
+  content: "Sorry, your browser doesn’t support CSS Shapes";
+  color: red;
+  display: block;
+  font-size: 0.5em;
+  margin-top: 1em;
+}
+
+.embed-container {
+  width: 50%;
+  height: 0;
+  padding-top: 50%;
+  border: .5em solid #afdad6;
+  margin: 0 2em 1em 0;
+  position: relative;
+  float: left;
+}
+.embed-container {
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    shape-outside: margin-box;
+    margin-top: 1em;
+    background-image:url(Accueil.jpg);
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+  }
+
+
+.cliPath {
+    width: 20px;
+    height:20px;
+
+}
+
+.content{
+  position: absolute;
+  width: inherit;
+  height: auto;
+  transform: translateY(-50%);
+  text-align: center;
+  top: 50%;
+  color: white;
+}
+
+#baba
+{
+    color: black;
+}
+#header{
+ background-color: #A0522D;
+
+ 
+  
+  transition: top 0.3s;
+  transition-delay: 0.2s;
+}
+
+#header.hidden {
+  top: -80px;
+}
+
+#love
+{
+   width: 50px;
+   height: 50px;   }
+
+header {
+  height: 100px;
+}
+.navbar .navbar-brand {
+  font-size: 30px;
+
+}
+.navbar .nav-item {
+  padding: 2px 1px;
+
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 50px;
+}
+.fa-bars {
+  color: #007bff;
+  font-size: 30px;
+}
+#dropdownMenuButton
+{
+    background-color: black;
+    border-style: none;
+    width: 115px;
+    margin-right: 10px;
+    font-size: 18px;
+
+}
+#kaka
+{
+text-align: right;
+
+}
+.dropdown-item:hover
+{
+background-color: black;
+}
+
+h1
+{
+    text-align: center;
+  
+    margin-top: 0;
+    padding: 20px;
+    color: black;
+}
+.register {
+    
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    color: black;
+
+
+
+}
+.reg 
+{
+background-color: #A0522D;
+border-radius: 10px;
+border:2px solid white;
+padding: 15px;
+color: black;
+font-size: 15px;
+
+}
+#gaoua{background-color: black;
+    border-style: none;
+    width: 40px;
+    height: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+
+}
+#nazim
+{
+  background-color: black;
+    border-style: none;
+    width: 40px;
+    height: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+    
+}
+#search
+{
+  background-color:#DEB887;
+  width: 200px;
+}
+
+
+
+.banner{
+  background-color: #BC8F8F;
+}
+
