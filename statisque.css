@@ -120,101 +120,76 @@ font-size: 15px;
 }
 
 
-$grey: #E2E2E2;
-$red: #DA5A4E;
 
-body {
-  background-color: #F5F9F9;
-  font-family: 'Open Sans', Helvetica
-}
-.content {
-  margin: 35px;
-}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
-.info-card {
-  width: 500px;
-  background-color: white;
-  border: 3px $grey solid;
-  border-radius: 8px;
-  padding: 25px;
-  
-  .info {
-    height: 100%;
-    width: 100%;
-    
-    h3 {
-      display: block;
-      margin:0;
-      margin-bottom: 5px;
-    }
-    
-    .info-item {
-      .summary {
-        position: relative;
-        height: 35px;
-        
-        .title {
-          font-size: 10pt;
-          position: absolute;
-          left: 0;
-          bottom: 0;
-        }
-        .value {
-          font-size: 8pt;
-          position: absolute;
-          right: 0;
-          bottom: 0;
-        }
-      }
-      
-      .slider {
-        height: 5px;
-        background-color: $grey;
-        margin-top: 8px;
-        position: relative;
-        
-        .progress {
-          height: 100%;
-          top: 0;
-          left: 0;
-          position: absolute;
-          display: inline-block;
-          background-color: $red;
-          animation: slide 1.5s ease-in-out;
-          transform-origin: left top;
-        }
-      }
-    }
-  }
+/* --------------------CSS----------------- */
+
+
+.box {
+	background: linear-gradient(#A0522D, #A0522D);
+	margin: 15px auto 0;
+	border-radius: 5px;
+	width: 300px;
 }
 
-// Slider values for demo purposes
-.progress {
-    
-  &#ds {
-    width: 67%;
-  }
-  
-  &#dbs {
-    width: 50%;
-  }
-  
-  &#ins {
-    width: 86%;
-  }
-  
-  &#mail {
-    width: 85%;
-  }
+.box__header {
+	padding: 15px 25px;
+	position: relative;
 }
 
+.box__header-title {
+	color: #fff;
+	font-size: 18px;
+}
 
-@keyframes slide {
-  from {
-    transform: scale(0,1);
-  }
-  
-  to {
-    transform: scale(1,1);
-  }
+.box__body {
+	padding: 0 25px;
+}
+
+/* STATS */
+
+.stats {
+	color: #fff;
+	position: relative;
+	padding-bottom: 25px;
+}
+
+.stats__amount {
+	font-size: 42px;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.stats__caption {
+	font-size: 18px;
+
+}
+
+.stats__change {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	text-align: right;
+	color: #B1B7C8;
+}
+
+.stats__value {
+	font-size: 18px;
+}
+
+.stats__period {
+	font-size: 14px;
+}
+
+.stats__value--positive {
+	color: #AEDC6F;
+}
+
+.stats__value--negative {
+	color: #FB5055;
+}
+
+.stats--main .stats__amount {
+	font-size: 54px;
 }

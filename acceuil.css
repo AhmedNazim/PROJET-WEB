@@ -27,20 +27,18 @@
 }
 
 .Ktiba img{
-  float: left
-  // background: #fff
-  width: 100%
-  transform: translateX(-30%)
-  shape-outside: polygon(40% 0%, 50% 50%, 70% 100%)
-  shape-margin: 2rem
-  // visibility: hidden
-  // width: 400px
-  clip-path: polygon(30% 0, 70% 0, 100% 100%, 30% 100%)
+  float: left;
+  background: #fff;
+  width: 100%;
+  transform: translateX(-30%);
+  shape-outside: polygon(40% 0%, 50% 50%, 70% 100%);
+  shape-margin: 2rem;
+  visibility: hidden;
+ width: 400px;
+  clip-path: polygon(30% 0, 70% 0, 100% 100%, 30% 100%);
   }
 
-  &:first-child
-    margin-top: 0
-
+ 
 #utilisation{
   position: center;
   color: #20B2AA;
