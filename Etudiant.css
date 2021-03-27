@@ -113,7 +113,7 @@ font-size: 15px;
 
 .team-boxed {
   color:#313437;
-  background-color:#eef4f7;
+  background-color:black;
 }
 
 .team-boxed p {
@@ -156,7 +156,7 @@ font-size: 15px;
 .team-boxed .item .box {
   text-align:center;
   padding:30px;
-  background-color:#fff;
+ background:black;
   margin-bottom:30px;
 }
 
@@ -170,7 +170,7 @@ font-size: 15px;
 .team-boxed .item .title {
   text-transform:uppercase;
   font-weight:bold;
-  color:#d0d0d0;
+  color: #DEB887;
   letter-spacing:2px;
   font-size:13px;
 }
@@ -187,7 +187,7 @@ font-size: 15px;
 
 .team-boxed .social {
   font-size:18px;
-  color:#a2a8ae;
+  color: #DEB887;
 }
 
 .team-boxed .social a {
@@ -201,21 +201,12 @@ font-size: 15px;
   opacity:1;
 }
 
-#corp{
-  background-image: url(img_search.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
-  
-  height: 100%;
-}
-#recherche{
-  position: top;
 
-}
+
 
 #team {
     background: #eee !important;
-    margin-top: 500px;
+    
 }
 
 .btn-primary:hover,
@@ -395,11 +386,53 @@ section .section-title {
   font-size: 20px;
 }
 
-/*Resize the wrap to see the search bar change!*/
-.wrap{
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+
+
+.navbar-fixed {
+  position: fixed;
+ 
+}
+
+
+
+
+
+article ul {
+  text-align: center;
+  margin: 0;
+}
+
+article ul li {
+ display: inline-block;
+ padding: 0 3em;
+ line-height: 3em;
+}
+
+.search-bar {
+	position: relative;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 344px;
+    height: 40px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+input {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 40px;
+    left: 172px;
+    margin: 4px 0;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
 }

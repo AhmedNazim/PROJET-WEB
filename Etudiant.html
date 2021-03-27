@@ -169,23 +169,75 @@ Entreprise</a>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-         <section id="recherche" style="margin-top: 0px;">
-                 <div class="wrap">
-   <div class="search">
-      <input type="text" class="searchTerm" placeholder="EX: nazim gaoua" style="width: 450px;height: 60px;">
-      <button type="submit" class="searchButton" style="height: 60px;" >
-        <i class="fa fa-search"></i>
-     </button>
-   </div>
-</div>
-      </section>
+        
             
         </header>                 
         
-
-       
+ <article id="nv">
+  <div class="search-bar">
+    <input type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" placeholder="Search">
+    <button type="submit" name="button" style="height: 40px;width: 50px; background-color: #A0522D;">
+      <i class="fas fa-search" style="color: #DEB887;"></i> <!-- Special font from font awesome file LINK IN DESCRIPTION! -->
+    </button>
+</div>
+          <ul>
+            
+            <li><div class="form-group py-2"></div>
+          
+              <div class="col-sm-8">
+                <select class="option py-2" name="subject">
+        <option disabled="disabled" selected="selected">Promotion</option>
+        <option> A1 </option>
+        <option> A2 </option>
+        <option> A3 </option>
+        <option> A4 </option>
+        <option> A5 </option>
+      </select>
+              </div></li>
+              
+            <li><div class="form-group py-2"></div>
+          
+              <div class="col-sm-8">
+                <select class="option py-2" name="subject">
+        <option disabled="disabled" selected="selected">Promotion</option>
+        <option> A1 </option>
+        <option> A2 </option>
+        <option> A3 </option>
+        <option> A4 </option>
+        <option> A5 </option>
+      </select>
+              </div></li>
+              <li><div class="form-group py-2"></div>
+          
+                <div class="col-sm-8">
+                  <select class="option py-2" name="subject">
+          <option disabled="disabled" selected="selected">Promotion</option>
+          <option> A1 </option>
+          <option> A2 </option>
+          <option> A3 </option>
+          <option> A4 </option>
+          <option> A5 </option>
+        </select>
+                </div></li>
+                <li><div class="form-group py-2"></div>
+          
+                  <div class="col-sm-8">
+                    <select class="option py-2" name="subject">
+            <option disabled="disabled" selected="selected">Promotion</option>
+            <option> A1 </option>
+            <option> A2 </option>
+            <option> A3 </option>
+            <option> A4 </option>
+            <option> A5 </option>
+          </select>
+                  </div></li>
+            
+          </ul>
+        </article>
+        
    
        <section id="team" class="pb-5">
+       
     <div class="container">
         <h5 class="section-title h1">OUR TEAM</h5>
         <div class="row">
@@ -469,6 +521,7 @@ Entreprise</a>
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
 ></script> 
 <script src="fiche.js"></script>
+<script src="etudiant.js"></script>
  </body>
 </html>
 
